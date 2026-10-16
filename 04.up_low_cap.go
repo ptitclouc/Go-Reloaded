@@ -1,11 +1,11 @@
 package main
 
 import (
-
+	"fmt"
 	"strings"
 )
 
-func up(mots []string) []string{
+func Up(mots []string) []string{
 	var result []string
 	for _, m := range mots {
 		if m == "(up)"{
@@ -13,7 +13,7 @@ func up(mots []string) []string{
 				continue
 			}
 			last := len(result) - 1
-			strings.ToUpper(result[last])
+			result[last] = strings.ToUpper(result[last])
 			continue
 		}
 		result = append(result, m)

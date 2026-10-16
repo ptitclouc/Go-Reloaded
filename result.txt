@@ -1,5 +1,5 @@
-Simply add 66 and 12 and
-you will see the result is 68.
+Simply add 66 and 2 and
+you WILL see the result is 68.
 Punctuation tests are ... kinda
 boring ,what do you think ?
 
