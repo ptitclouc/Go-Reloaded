@@ -12,6 +12,7 @@ func main() {
 	mots = Up(mots)
 	mots = Low(mots)
 	mots = Cap(mots)
+	mots = ponctuation(mots)
 	texte := strings.Join(mots, " ")
 	Sortie(texte)
 }
