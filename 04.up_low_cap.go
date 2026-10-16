@@ -35,4 +35,19 @@ func Low(mots []string) []string{
 	} 
 	return result
 }
-	
+
+func Cap(mots []string) []string{
+	var result []string
+	for _, m := range mots {
+		if m == "(cap)"{
+			if len(result) == 0 {
+				continue
+			}
+			last := len(result) - 1
+			result[last] = Capitalize(result[last])
+			continue
+		}
+		result = append(result, m)
+	} 
+	return result
+}
