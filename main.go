@@ -10,6 +10,7 @@ func main() {
 	mots := decoupage(contenu)
 	mots = hexbin(mots)
 	mots = Up(mots)
+	mots = Low(mots)
 	texte := strings.Join(mots, " ")
 	Sortie(texte)
 }

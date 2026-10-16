@@ -1,6 +1,6 @@
 Simply add 66 and 2 and
 you WILL see the result is 68.
-Punctuation tests are ... kinda
+punctuation tests are ... kinda
 boring ,what do you think ?
 
 pour testzdzdz
