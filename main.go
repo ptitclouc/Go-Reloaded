@@ -1,5 +1,15 @@
 package main
 
-func main() {
+import "strings"
 
+func main() {
+	contenu, ok := Entree()
+	if !ok {
+		return
+	}
+	mots := decoupage(contenu)
+	mots = hexbin(mots)
+	mots = up(mots)
+	texte := strings.Join(mots, " ")
+	Sortie(texte)
 }
