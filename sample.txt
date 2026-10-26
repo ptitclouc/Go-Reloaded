@@ -1,6 +1,6 @@
-(hex) Simply add 42 (hex) and tu 10 (bin) and
+(hex) Simply a add ' 42 (hex) and tu 10 (bin) and
 you will (up) see the (cap) result is 68.
 PuNCTUATION (low) tests are ... kinda
-boring , what do you think ?
+boring ,what do you ' think ?
 
 pour testzdzdz

@@ -13,6 +13,8 @@ func main() {
 	mots = Low(mots)
 	mots = Cap(mots)
 	mots = ponctuation(mots)
+	mots = apostrophes(mots)
+	mots = atooan(mots)
 	texte := strings.Join(mots, " ")
 	Sortie(texte)
 }
